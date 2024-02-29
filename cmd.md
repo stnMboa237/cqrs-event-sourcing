@@ -39,6 +39,7 @@ dotnet new classlib -o Post.Common
 dotnet sln add ../CQRS-ES/CQRS.Core/CQRS.Core.csproj
 dotnet sln add Post.Cmd/Post.Cmd.Api/Post.Cmd.Api.csproj
 dotnet sln add Post.Cmd/Post.Cmd.Infrastructure/Post.Cmd.Infrastructure.csproj
+dotnet sln add Post.Common/Post.Common.csproj
 
 dotnet sln add Post.Query/Post.Query.Api/Post.Query.Api.csproj
 dotnet sln add Post.Query/Post.Query.Domain/Post.Query.Domain.csproj

@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRS.Core", "..\CQRS-ES\CQRS.Core\CQRS.Core.csproj", "{15A3065F-7A5A-47BB-A07A-33CC629EFCDC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Post.Cmd", "Post.Cmd", "{3970A890-3FA7-490C-B48E-86E94C06A1A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Post.Cmd.Api", "Post.Cmd\Post.Cmd.Api\Post.Cmd.Api.csproj", "{0EA83F15-8250-4450-9095-451EC07F2C5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Post.Cmd.Infrastructure", "Post.Cmd\Post.Cmd.Infrastructure\Post.Cmd.Infrastructure.csproj", "{7CEEA2D7-D032-4AD5-ACE1-CE110B6BC192}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Post.Query", "Post.Query", "{6ECF4779-C45D-4013-8280-6E96A874FF23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Post.Query.Api", "Post.Query\Post.Query.Api\Post.Query.Api.csproj", "{DD57FDD2-C4D3-49E4-BF7D-49708AEFF181}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Post.Query.Domain", "Post.Query\Post.Query.Domain\Post.Query.Domain.csproj", "{670FB85B-9560-4EA5-A36C-523818A89C2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Post.Query.Infrastructure", "Post.Query\Post.Query.Infrastructure\Post.Query.Infrastructure.csproj", "{1C3BAFFF-3A9D-4F60-B568-3AE98D0EBC3D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15A3065F-7A5A-47BB-A07A-33CC629EFCDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15A3065F-7A5A-47BB-A07A-33CC629EFCDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15A3065F-7A5A-47BB-A07A-33CC629EFCDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15A3065F-7A5A-47BB-A07A-33CC629EFCDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EA83F15-8250-4450-9095-451EC07F2C5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EA83F15-8250-4450-9095-451EC07F2C5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EA83F15-8250-4450-9095-451EC07F2C5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EA83F15-8250-4450-9095-451EC07F2C5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CEEA2D7-D032-4AD5-ACE1-CE110B6BC192}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CEEA2D7-D032-4AD5-ACE1-CE110B6BC192}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CEEA2D7-D032-4AD5-ACE1-CE110B6BC192}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CEEA2D7-D032-4AD5-ACE1-CE110B6BC192}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD57FDD2-C4D3-49E4-BF7D-49708AEFF181}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD57FDD2-C4D3-49E4-BF7D-49708AEFF181}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD57FDD2-C4D3-49E4-BF7D-49708AEFF181}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD57FDD2-C4D3-49E4-BF7D-49708AEFF181}.Release|Any CPU.Build.0 = Release|Any CPU
+		{670FB85B-9560-4EA5-A36C-523818A89C2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{670FB85B-9560-4EA5-A36C-523818A89C2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{670FB85B-9560-4EA5-A36C-523818A89C2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{670FB85B-9560-4EA5-A36C-523818A89C2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C3BAFFF-3A9D-4F60-B568-3AE98D0EBC3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C3BAFFF-3A9D-4F60-B568-3AE98D0EBC3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C3BAFFF-3A9D-4F60-B568-3AE98D0EBC3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C3BAFFF-3A9D-4F60-B568-3AE98D0EBC3D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0EA83F15-8250-4450-9095-451EC07F2C5E} = {3970A890-3FA7-490C-B48E-86E94C06A1A6}
+		{7CEEA2D7-D032-4AD5-ACE1-CE110B6BC192} = {3970A890-3FA7-490C-B48E-86E94C06A1A6}
+		{DD57FDD2-C4D3-49E4-BF7D-49708AEFF181} = {6ECF4779-C45D-4013-8280-6E96A874FF23}
+		{670FB85B-9560-4EA5-A36C-523818A89C2F} = {6ECF4779-C45D-4013-8280-6E96A874FF23}
+		{1C3BAFFF-3A9D-4F60-B568-3AE98D0EBC3D} = {6ECF4779-C45D-4013-8280-6E96A874FF23}
+	EndGlobalSection
+EndGlobal
